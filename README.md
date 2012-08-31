@@ -29,7 +29,7 @@ Without closing the shell window, open your favourite text editor, edit `/etComm
 
 Save it, go back to the shell and run the following:
 
-	mvn install
+	mvn package install
 	cd ..
 	
 Installing etCommon should be done automatically by Maven when installing RedstoneChips, but as the author of etCommon is not providing a binary for Maven, it has to be done manually.
@@ -47,7 +47,7 @@ Then download and compile Glowstone Pixel:
 	cd glowpixel
 	mvn package
 	
-The resulting compiled Java Archive file (.jar) ready to be used will be placed at /target. Just copy it to Bukkit's plugin folder. If you don't have RedstoneChips installed on your server, get it from ./RedstoneChips/target.
+The resulting compiled Java Archive file (.jar) ready to be used will be placed at /target. Just copy it to Bukkit's plugin folder. If you don't have RedstoneChips installed on your server, you need to copy the .jar files from ./RedstoneChips/target and /etCommon/target as well.
 
 How can I build the chip?
 -------------------------

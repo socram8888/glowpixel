@@ -1,5 +1,5 @@
 name: Glowstone Pixel
-main: org.s4x8.glowpixel.chiplist
+main: ti.s4x8.glowpixel.chiplist
 version: 1.0
 depend: [RedstoneChips]
 

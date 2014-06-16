@@ -3,7 +3,7 @@
 	<name>Glowstone Pixel</name>
 	<version>1.0</version>
 	<url>https://github.com/socram8888/glowpixel/</url>
-	<groupId>org.s4x8</groupId>
+	<groupId>ti.s4x8</groupId>
 	<artifactId>glowpixel</artifactId>
 	<packaging>jar</packaging>
 	<properties>
@@ -26,9 +26,9 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.tal</groupId>
+			<groupId>org.redstonechips</groupId>
 			<artifactId>RedstoneChips</artifactId>
-			<version>beta</version>
+			<version>1.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>
